@@ -1,6 +1,6 @@
 # npmtest-smoothstate
 
-#### test coverage for  [smoothstate (v0.7.2)](http://miguel-perez.github.io/smoothState.js/)  [![npm package](https://img.shields.io/npm/v/npmtest-smoothstate.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-smoothstate) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-smoothstate.svg)](https://travis-ci.org/npmtest/node-npmtest-smoothstate)
+#### basic test coverage for  [smoothstate (v0.7.2)](http://miguel-perez.github.io/smoothState.js/)  [![npm package](https://img.shields.io/npm/v/npmtest-smoothstate.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-smoothstate) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-smoothstate.svg)](https://travis-ci.org/npmtest/node-npmtest-smoothstate)
 
 #### Unobtrusive page transitions with jQuery.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-smoothstate/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-smoothstate/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-smoothstate/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-smoothstate/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-smoothstate/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-smoothstate/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-smoothstate/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-smoothstate/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-smoothstate/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-smoothstate/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-smoothstate/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-smoothstate/build/coverage.html/index.html)
 
@@ -87,7 +87,8 @@
         "url": "git+ssh://git@github.com/miguel-perez/smoothState.js.git"
     },
     "scripts": {},
-    "version": "0.7.2"
+    "version": "0.7.2",
+    "bin": {}
 }
 ```
 

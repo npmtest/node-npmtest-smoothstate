@@ -1,6 +1,6 @@
 {
     "author": "kai zhu <kaizhu256@gmail.com>",
-    "description": "#### test coverage for  [smoothstate (v0.7.2)](http://miguel-perez.github.io/smoothState.js/)  [![npm package](https://img.shields.io/npm/v/npmtest-smoothstate.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-smoothstate) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-smoothstate.svg)](https://travis-ci.org/npmtest/node-npmtest-smoothstate)",
+    "description": "#### basic test coverage for  [smoothstate (v0.7.2)](http://miguel-perez.github.io/smoothState.js/)  [![npm package](https://img.shields.io/npm/v/npmtest-smoothstate.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-smoothstate) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-smoothstate.svg)](https://travis-ci.org/npmtest/node-npmtest-smoothstate)",
     "devDependencies": {
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
         "smoothstate": "*",
@@ -36,5 +36,5 @@
         "start": "PORT=${PORT:-8080} utility2 start test.js",
         "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
     },
-    "version": "0.0.1"
+    "version": "2017.4.27"
 }
